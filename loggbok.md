@@ -1,6 +1,6 @@
 Loggbok
 
-Sprint 1 - vecka 40:
+Sprint 1 - vecka 39:
 Under den första sprinten jobbade jag med att lägga till CI för frontend, såg till att frontend kunde 
 köra lokalt efter att Jimmy hade skapat repot, skapade en CORS-konfiguration i orderservice för att 
 tillåta att frontend kan ansluta mot den, skapade en gemensam header och footer med länkar till olika 
@@ -24,7 +24,7 @@ skapar vi kort av hela den stora uppgiften och i det kortet skapar vi en checkli
 behöver lösas (user stories). Ett sätt som har fungerat bra för oss att arbeta på.
 
 ----------------------------------------------------------------------------------------------------------
-Sprint 2 - vecka 41:
+Sprint 2 - vecka 40:
 De uppgifter som jag fick i andra sprinten var att konfigurera testmiljö och komponenttesta
 ProductCard. Jag gjorde även kundvagn del 3 efter att Kevin var klar med del 2, det som gjordes i 
 del 3 var att varukorgen skulle finnas kvar vid omladdning av sidan (spara i sessionStorage), 
@@ -45,7 +45,7 @@ och Maria började pilla med frontend. Överlag så flöt arbetet på väldigt b
 vi hade bra kommunikation hela veckan och hade mycket fint att visa upp på demon.
 
 ----------------------------------------------------------------------------------------------------------
-Sprint 3 - vecka 42:
+Sprint 3 - vecka 41:
 Under tredje sprinten så blev det väldigt stort fokus på att försöka få igång betallösningen och få
 den att synka med order-service och frontend, något vi till slut lyckades med och kunde få till ett
 fullständigt flöde. Extra roligt var det när vi på fredagen även kunde få till så att det gick att
@@ -65,7 +65,7 @@ lokalt men svårt att säga varför. Vet inte om han hade gjort PR-s på alla ä
 Detta medförde att jag fick köra demon på Sprint-reviewen, vilket gick bra då hela mitt flöde fungerade.
 
 ----------------------------------------------------------------------------------------------------------
-Sprint 4 - vecka 43:
+Sprint 4 - vecka 42:
 Fjärde sprinten inleddes med en uppgift som låg kvar från tidigare vecka, det var att lägga till en
 "lägg till i kundvagn"-knapp även på produktdetaljsidan. Vilket vi fått instruktioner om, något som
 gick smidigt med de instruktioner vi fått under tidigare lektioner. I övrigt denna vecka har jag suttit
