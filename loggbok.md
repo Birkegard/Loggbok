@@ -87,3 +87,31 @@ spara användarens token i en cookie medan delar av gruppen tänkte att det låg
 Så det vi kom överens om är att den uppdaeringen görs under sprint nummer 5.
 
 ----------------------------------------------------------------------------------------------------------
+Sprint 5 - vecka 43:
+Denna veckan har jag fixat för att cookies ska fungera i frontend, vilket har inneburit att alla services 
+har fått attributet credentials: include. Login-metoden har uppdaterats så att logga in/logga ut uppdateras
+med om det finns en inloggad användare eller inte. Jag var även tvungen att uppdatera våran protectedroute
+så att den både kollar om det är en user, och att den får behörighet till rätt sida samt att den inte ser 
+admin-fliken när den är inloggad. Även om det skulle vara möjligt att se den så hade en vanlig user inte kunnat
+nå själva endpoiten sett till säkerhetsfiltret som finns i mikrotjänsten. Vidare har vi alla i gruppen undersökt
+vitest, RTL och MSW samt skrivet en kortare dokumentation om vad det är och vad skillnaderna är på komponent-, 
+integration- och e2e-tester. Jag skapade utifrån det tester för att mocka auth/me samt /products så att en 
+inloggad användare kan se produkterna som finns samt att man får ett felmeddelande om hämtning misslyckades.
+Slutligen den här veckan så driftsatte jag våran frontend på render.
+
+Vi hade inga större problem under veckan, det vi hittade var att när man gjorde en lyckad betalning så blev
+man redirected till localhost, något vi var tvungen att sätta miljövariabler för, så att vi kom rätt. Det var 
+även ganska klurigt att få till det med cookies i vår frontend då vi även har integrerat payment. Men med lite 
+hjälp av AI, en del hjälp av dokumentation och stöd av varandra så fick vi till det.
+
+Under veckan som gått har jag varit scrummaster igen. Något som likt första gången gick relativt smärtfritt 
+jag satte upp tydliga mål utifrån backlogen från gruppen och därefter bedömde vi dom olika uppgifterna i 
+backlog och bestämde vem som gjorde vad. Som tidigare har vi haft bra kontakt i teamet och vi har hjälpt 
+varandra om det är något som har strulat, samt varit bra på att säga till om man behöver hjälp. Olyckligt 
+i början var att en person tog fel på tiden för planeringsmötet. Vad gäller start, stop och continue på 
+retro så hade vi egentligen inga nya start eller stop då vi tycker att arbetet flyter på bra och den 
+förändring som vi gjorde med att flytta all kommunikation från teams till discord var bra. Så dom två 
+continue vi kom fram till var att fortsätta lyfta dom småsaker i applikationen som inte är klara med
+till exempel layout. Vi var även tydliga med att vi vill fortsätta att jobba på discord.
+
+--------------------------------------------------------------------------------------------------------------
